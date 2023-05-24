@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.timer, .stopwatch {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.timer-display, .stopwatch-display {
+  font-size: 4em;
+  margin: 20px 0;
+}
+
+button {
+  font-size: 1.2em;
+  margin: 5px;
+}

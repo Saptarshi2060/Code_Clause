@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Unit Converter</h1>
+    
+    <form>
+      <div class="form-group">
+        <label for="from-value">From:</label>
+        <input type="number" id="from-value" name="from-value" required>
+        <select id="from-unit" name="from-unit" required>
+          <option value="meter">Meter (m)</option>
+          <option value="centimeter">Centimeter (cm)</option>
+          <option value="inch">Inch (in)</option>
+          <option value="foot">Foot (ft)</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label for="to-value">To:</label>
+        <input type="number" id="to-value" name="to-value" readonly>
+        <select id="to-unit" name="to-unit" required>
+          <option value="meter">Meter (m)</option>
+          <option value="centimeter">Centimeter (cm)</option>
+          <option value="inch">Inch (in)</option>
+          <option value="foot">Foot (ft)</option>
+        </select>
+      </div>
+      
+      <button type="submit">Convert</button>
+    </form>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
